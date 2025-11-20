@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smelting",
-  "category": "food",
+  "category": "misc",
   "cookingtime": 200,
-  "experience": 0.35,
+  "experience": 0.20,
   "ingredient": {
     "item": "bodakkoeater:pouched_water"
   },

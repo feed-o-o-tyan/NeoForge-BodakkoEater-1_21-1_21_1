@@ -1,17 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "food",
-  "pattern": [
-    "SSS",
-    "SsS",
-    "SSS"
-  ],
   "key": {
-    "S": "bodakkoeater:salt",
-    "s": "minecraft:salmon"
+    "s": {
+      "item": "bodakkoeater:salt"
+    },
+    "S": {
+      "item": "minecraft:salmon"
+    }
   },
+  "pattern": [
+    "sss",
+    "sSs",
+    "sss"
+  ],
   "result": {
-    "item": "bodakkoeater:bodakko",
-    "count": 1
+    "count": 1,
+    "id": "bodakkoeater:bodakko"
   }
 }
