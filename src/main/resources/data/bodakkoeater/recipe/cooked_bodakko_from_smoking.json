@@ -4,9 +4,9 @@
   "cookingtime": 100,
   "experience": 0.35,
   "ingredient": {
-    "item": "bodakkoeater:raw_bodakko"
+    "item": "bodakkoeater:bodakko"
   },
   "result": {
-    "id": "bodakkoeater:bodakko"
+    "id": "bodakkoeater:cooked_bodakko"
   }
 }

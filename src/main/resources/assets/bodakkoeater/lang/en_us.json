@@ -1,8 +1,8 @@
 {
-  "item.bodakkoeater.bodakko": "Bodakko (More salty salted salmon)",
-  "item.bodakkoeater.rawbodakko": "Raw Bodakko",
+  "item.bodakkoeater.cookedbodakko": "Bodakko (More salty salted salmon)",
+  "item.bodakkoeater.bodakko": "Raw Bodakko",
   "item.bodakkoeater.salt": "Salt",
-  "item.bodakkoeater.pouchedwater": "pouchedwater",
+  "item.bodakkoeater.pouchedwater": "Pouched water",
 
   "creativetab.bodakkoeater.bodakko_tab": "Bodakko Eater"
 }

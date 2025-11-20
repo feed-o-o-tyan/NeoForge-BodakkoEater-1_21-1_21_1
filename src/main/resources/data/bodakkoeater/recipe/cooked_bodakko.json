@@ -4,10 +4,10 @@
   "cookingtime": 200,
   "experience": 0.35,
   "ingredient": {
-    "item": "minecraft:raw_bodakko"
+    "item": "minecraft:bodakko"
   },
   "result": {
-    "id": "minecraft:bodakko",
+    "id": "minecraft:cooked_bodakko",
     "count": 1
   }
 }
