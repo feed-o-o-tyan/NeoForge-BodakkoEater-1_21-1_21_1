@@ -1,5 +1,6 @@
 package net.feed_o_o.bodakkoeater;
 
+import net.feed_o_o.bodakkoeater.item.ModCreativeModeTabs;
 import net.feed_o_o.bodakkoeater.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -36,6 +37,8 @@ public class BodakkoEater {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -51,7 +54,9 @@ public class BodakkoEater {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.COOKED_BODAKKO);
             event.accept(ModItems.BODAKKO);
+            event.accept(ModItems.SALT);
         }
     }
 

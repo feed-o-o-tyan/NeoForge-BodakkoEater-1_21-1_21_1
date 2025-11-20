@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bodakkoeater:item/pouched_water_texture"
+  }
+}
